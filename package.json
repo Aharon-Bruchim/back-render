@@ -1,0 +1,22 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/server.js",
+    "deploy": "node deploy.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "axios": "^1.8.2",
+    "commander": "^13.1.0",
+    "express": "^4.21.2",
+    "form-data": "^4.0.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
